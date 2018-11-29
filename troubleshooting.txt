@@ -1,0 +1,31 @@
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/troubleshoot?view=aspnetcore-2.1#app-startup-errors
+
+Log Name:      Application
+Source:        IIS Express AspNetCore Module
+Date:          11/30/2018 1:15:43 AM
+Event ID:      1000
+Task Category: None
+Level:         Error
+Keywords:      Classic
+User:          N/A
+Computer:      DESKTOP-6VI1C96
+Description:
+Application 'MACHINE/WEBROOT/APPHOST/LIBRARY.API' with physical root 'F:\AspNetCore\Library\src\Library.API\' failed to start process with commandline 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\Web Tools\ProjectSystem\VSIISExeLauncher.exe -argFile "f:\Tmp\tmp70B3.tmp"', ErrorCode = '0x80004005 : 0.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="IIS Express AspNetCore Module" />
+    <EventID Qualifiers="0">1000</EventID>
+    <Level>2</Level>
+    <Task>0</Task>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2018-11-29T18:15:43.709251300Z" />
+    <EventRecordID>144176</EventRecordID>
+    <Channel>Application</Channel>
+    <Computer>DESKTOP-6VI1C96</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>Application 'MACHINE/WEBROOT/APPHOST/LIBRARY.API' with physical root 'F:\AspNetCore\Library\src\Library.API\' failed to start process with commandline 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\Web Tools\ProjectSystem\VSIISExeLauncher.exe -argFile "f:\Tmp\tmp70B3.tmp"', ErrorCode = '0x80004005 : 0.</Data>
+  </EventData>
+</Event>
